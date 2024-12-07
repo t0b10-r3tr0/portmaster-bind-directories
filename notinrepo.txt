@@ -1,0 +1,3 @@
+game-files-required/sonic3air.zip
+ready-to-run/flare.zip
+ready-to-run/freedroid.zip
