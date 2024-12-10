@@ -2,7 +2,7 @@
 
 ## Bind Mount Fix for exFAT File Systems (Knulli, Batocera)
 
-In order to support exFAT on Knulli and Batocera, a new core function was added to PortMaster (`bind_directories`) to replace the previous method of using symbolic links. This was done in order to support exFAT on [Knulli](https://knulli.org/) and [Batocera](https://batocera.org/).
+In order to support exFAT on Knulli and Batocera, a new core function was added to PortMaster (`bind_directories`) to replace the previous method of using symbolic links. This was done in order to support exFAT on [Knulli](https://knulli.org/) and [Batocera](https://batocera.org/). For status and progress, check our [**Discord Testing Thread**](https://discord.com/channels/1122861252088172575/1315085237788868608)
 
 ### Installation Instructions:
 
@@ -120,3 +120,7 @@ This repository contains all of the ports that have been affected as a result of
 * TowerFall Ascension
 * World War II GI
 * World of Goo
+
+### Contributing
+
+You can download the ports to your device and join us in the [Discord testing thread](https://discord.com/channels/1122861252088172575/1315085237788868608) to check the current status of the testing progress. 
