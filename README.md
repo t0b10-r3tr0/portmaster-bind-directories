@@ -1,8 +1,8 @@
 # PortMaster Releases
 
-## Bind Mount Fix for exFAT File Systems (Knulli, Batocera)
+## Bind Mount Fix for exFAT FS (Knulli, Batocera)
 
-In order to support exFAT on Knulli and Batocera, a new core function was added to PortMaster (`bind_directories`) to replace the previous method of using symbolic links. This was done in order to support exFAT on [Knulli](https://knulli.org/) and [Batocera](https://batocera.org/). For status and progress, check our [**Discord Testing Thread**](https://discord.com/channels/1122861252088172575/1315085237788868608)
+In order to support the exFAT file system on [Knulli](https://knulli.org/) and [Batocera](https://batocera.org/), a new core function was added to PortMaster (`bind_directories`) to replace the previous method of using symbolic links. This resulted in many ports getting updated which now need to be tested. For status and progress, check our [**Discord Testing Thread**](https://discord.com/channels/1122861252088172575/1315085237788868608)
 
 ### Installation Instructions:
 
