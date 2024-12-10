@@ -1,8 +1,37 @@
 # PortMaster Releases
-## Bind Directories Fix for exFAT File Systems
-This repository contains all of the ports that are affected by the issue regarding the creation of symbolic links on an exFAT filesystem. The symbolic links have been replaced with the `bind_directory` function so this needs to be tested in each port.
 
-## Ready to Run:
+## Bind Mount Fix for exFAT File Systems (Knulli, Batocera)
+
+In order to support exFAT on Knulli and Batocera, a new core function was added to PortMaster (`bind_directories`) to replace the previous method of using symbolic links. This was done in order to support exFAT on [Knulli](https://knulli.org/) and [Batocera](https://batocera.org/).
+
+### Installation Instructions:
+
+The instructions will apply to **all** of the ports tested in this post:
+1. If you have the port already, uninstall it through PortMaster GUI: Manage Games > Game Info > Uninstall. 
+2. Copy the `.zip` file to the `autoinstall` directory within the [PortMaster directory for your device](https://portmaster.games/installation.html#via-zip).
+  * Option 1: Use SMB, SSH, or any other method provided by your CFW
+  * Option 2: If your device supports it, remove micro-sd from device and copy files with computer
+4. Start PortMaster and allow the auto-installation to continue.
+5. Quit PortMaster and restart EmulationStation or your device.
+6. Launch the port from the Ports section of ES.
+
+### Testing
+
+The port must be tested on the following fimwares to be considered as a passed test:
+- Knulli
+- Any other PM-supported CFW (ArkOS, ROCKNIX, AnberELEC, etc.)
+
+In order consider the test passed for your device / CFW combo the following conditions must be satisfied:
+1. The port loads without issue, even after rebooting the device.
+2. The saves/settings persist, even after rebooting the device.
+3. If port was installed previously, the existing saves/settings were preserved when testing the new version.
+
+### Affected Ports
+
+This repository contains all of the ports that have been affected as a result of these changes. The symbolic linking logic has has been replaced with PM's `bind_directory`, which require testing. This is a complete listing of the affected ports needing testing. To download the whole collection, [**click this link**](https://github.com/t0b10-r3tr0/PortMaster-Releases/archive/refs/heads/main.zip). To downoad an individual port, navigate to the appropriate directory, then the corresponding `.zip` file, and click the button titled *Download raw file*.
+
+#### Ready to Run:
+
 * Abes Adventure
 * Abuse
 * Armagetron Advanced
@@ -42,7 +71,8 @@ This repository contains all of the ports that are affected by the issue regardi
 * VVVVVV
 * Wolfenstein 3D
 
-## Game Files Required
+#### Game Files Required
+
 * Air
 * Alien vs Predator
 * Angband
