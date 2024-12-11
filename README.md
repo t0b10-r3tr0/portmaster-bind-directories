@@ -15,6 +15,10 @@ The instructions will apply to **all** of the ports tested in this post:
 5. Quit PortMaster and restart EmulationStation or your device.
 6. Launch the port from the Ports section of ES.
 
+#### Important
+
+You must replace the `funcs.txt` within your PortMaster directory with the one contained in this repository. It is recommended that you back that version u prior to replacing.
+
 ### Testing
 
 The port must be tested on the following fimwares to be considered as a passed test:
@@ -22,6 +26,7 @@ The port must be tested on the following fimwares to be considered as a passed t
 - Any other PM-supported CFW (ArkOS, ROCKNIX, AnberELEC, etc.)
 
 In order consider the test passed for your device / CFW combo the following conditions must be satisfied:
+
 1. The port loads without issue, even after rebooting the device.
 2. The saves/settings persist, even after rebooting the device.
 3. If port was installed previously, the existing saves/settings were preserved when testing the new version.
