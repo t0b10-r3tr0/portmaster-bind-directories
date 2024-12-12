@@ -1,0 +1,3 @@
+/userdata/system/.local/share/PortMaster/libgl_knulli.txt: line 7: glxinfo: command not found
+/userdata/roms/ports/Shovel Knight.sh: line 64: syntax error near unexpected token `('
+/userdata/roms/ports/Shovel Knight.sh: line 64: `echo "Loading, please wait... (might take a while!)" > /dev/tty0'

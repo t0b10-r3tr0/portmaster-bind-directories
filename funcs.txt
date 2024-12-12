@@ -1,4 +1,7 @@
 #!/bin/sh
+#
+# SPDX-License-Identifier: MIT
+#
 
 # So we can check the version
 if [ ! -z "$PM_FUNCS_VERSION" ]; then
@@ -38,16 +41,16 @@ fi
 
 bind_directories() {
     # Usage: bind_directories ~/.config/StardewValley $GAMEDIR/savedata
-    # 
+    #
     # Reason: some platforms (batocera) use exfat for the home directory, so we can't use symbolic links
     # We then instead use bind mount, however retrodeck cannot bind mount because it does not run in root.
     #
     if [ "$PM_CAN_MOUNT" = "Y" ]; then
         [[ -L "$1" ]] && rm -f "$1"
         # Ensure the directory (or file) exists before attempting the bind mount
-        [[ -d "$2" ]] && mkdir -p "$1" && echo "created directory for bind: $1"
-        [[ -f "$2" ]] && mkdir -p "$(dirname "$1")" && touch "$1" && echo "created file for bind: $1"
-        # bind the source path to the specified location
+        [[ -d "$2" ]] && mkdir -p "$1"
+        [[ -f "$2" ]] && touch "$1"
+        # unmount, then bind mount the from the port dir to the target
         $ESUDO umount "$1"
         $ESUDO mount --bind "$2" "$1"
     else
@@ -57,22 +60,6 @@ bind_directories() {
     fi
 }
 
-    # Usage: unbind_directories ~/.config/StardewValley
-    # 
-    # Reason: To keep things clean, we unbind from the port directory and remove the remaining 
-    # directory
-    #
-unbind_directories() {
-    $ESUDO umount "$1"
-    $ESUDO rm -f "$1"
-
-    # Recursively remove empty directories
-    dir_path=$(dirname "$1")
-    while [[ "$dir_path" != "/" && -d "$dir_path" && "$(ls -A "$dir_path")" == "" ]]; do
-        rmdir "$dir_path"
-        dir_path=$(dirname "$dir_path")  # Move to the parent directory
-    done
-}
 
 pm_begin_splash() {
     # Usage: pm_begin_splash

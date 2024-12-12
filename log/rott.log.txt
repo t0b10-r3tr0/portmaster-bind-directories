@@ -1,0 +1,7 @@
+'/userdata/roms/ports/rott/timidity_cfg.bak' -> '/userdata/roms/ports/rott/timidity.cfg'
+umount: /userdata/system/.rott: not mounted.
+Rise of the Triad Startup  Version 1.4
+ Shareware Version 
+Z_AllocateZone: Couldn't malloc 899677528 bytes avail=900000000 Episode      = 0
+Area         = 1
+/userdata/roms/ports/Rise of the Triad - The Hunt Begins.sh: line 62: systemctl: command not found
