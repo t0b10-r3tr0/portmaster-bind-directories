@@ -17,7 +17,7 @@ The instructions will apply to **all** of the ports tested in this post:
 
 #### Important
 
-You must replace the `funcs.txt` within your PortMaster directory with the one contained in this repository. It is recommended that you back that version u prior to replacing.
+You must enable alpha builds in PortMaster to accurately test this functionality. See the Discord for more details.
 
 ### Testing
 
