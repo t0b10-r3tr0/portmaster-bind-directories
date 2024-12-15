@@ -1,0 +1,9 @@
+rm: cannot remove '/userdata/roms/ports/duke3dawo/eduke32.log': No such file or directory
+successful bind mount from //userdata/roms/ports/duke3dawo/conf/eduke32 to /userdata/system/.config/eduke32
+swapoff: /storage/swapfile: swapoff failed: No such file or directory
+dd: failed to open '/storage/swapfile': No such file or directory
+chmod: cannot access '/storage/swapfile': No such file or directory
+mkswap: cannot open /storage/swapfile: No such file or directory
+swapon: cannot open /storage/swapfile: No such file or directory
+/userdata/roms/ports/Duke3D - Alien World Order.sh: line 75:  4490 Segmentation fault      ./eduke32.${DEVICE_ARCH} awo.zip -nosetup -gamegrp e32wt.grp -xE32WT.CON
+/userdata/roms/ports/Duke3D - Alien World Order.sh: line 78: systemctl: command not found
