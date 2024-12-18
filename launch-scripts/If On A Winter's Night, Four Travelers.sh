@@ -15,9 +15,6 @@ fi
 # We source the control.txt file contents here
 source $controlfolder/control.txt
 
-# With device_info we can get dynamic device information like resolution, cpu, cfw etc.
-# source $controlfolder/device_info.txt
-
 # We source custom mod files from the portmaster folder example mod_jelos.txt which containts pipewire fixes
 [ -f "${controlfolder}/mod_${CFW_NAME}.txt" ] && source "${controlfolder}/mod_${CFW_NAME}.txt"
 
@@ -49,7 +46,7 @@ fi
 
 # Setup savedir
 mkdir -p "$GAMEDIR/savedata"
-bind_directories ~/.local/share/ags/If\ On\ A\ Winter\'s\ Night\ Four\ Travelers "$GAMEDIR/savedata"
+bind_directories "$HOME/.local/share/ags/If\ On\ A\ Winter\'s\ Night\ Four\ Travelers" "$GAMEDIR/savedata"
 
 # Copy acsetup.cfg from config to gamedata
 if [ ! -f "$GAMEDIR/.initial_config_done" ]; then

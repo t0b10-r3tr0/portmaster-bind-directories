@@ -1,0 +1,13 @@
+/userdata/system/.local/share/PortMaster/libgl_knulli.txt: line 10: glxinfo: command not found
+umount: /userdata/system/.local/share/PortMaster/libs/rlvm.squashfs: not mounted.
+umount: /userdata/system/.rlvm/KEY_KANON_SE: not mounted.
+successful bind mount from /userdata/roms/ports/kanon/saves to /userdata/system/.rlvm/KEY_KANON_SE
+umount: /userdata/system/.rlvm/KEY_KANON_ME_ALL: not mounted.
+successful bind mount from /userdata/roms/ports/kanon/saves to /userdata/system/.rlvm/KEY_KANON_ME_ALL
+modprobe: FATAL: Module edt_ft5x06 not found.
+Running in UINPUT output mode.
+/userdata/roms/ports/Kanon.sh: line 80:  3636 Segmentation fault      $runtime $font "$GAMEDIR/gamedata"
+modprobe: FATAL: Module edt_ft5x06 not found in directory /lib/modules/4.9.170
+Running in Fake Keyboard mode
+Using ConfigFile rlvm.gptk
+Joystick 0 has game controller name 'Anbernic RG35XX-H Controller'

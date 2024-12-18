@@ -31,6 +31,16 @@ In order consider the test passed for your device / CFW combo the following cond
 2. The saves/settings persist, even after rebooting the device.
 3. If port was installed previously, the existing saves/settings were preserved when testing the new version.
 
+#### Samples of Excellent Submissions from Our Community
+
+Here are some really great submissions we were getting from various supports:
+
+|                                       |                                       |                                 
+|:-------------------------------------:|:-------------------------------------:|
+| arcade-classic-hotpink.jpg            | arcade-classic-red.jpg                |
+| ![Test Results 1](https://github.com/t0b10-r3tr0/PortMaster-Releases/blob/main/test-result-1.png?raw=true) | ![Test Results 2](https://github.com/t0b10-r3tr0/PortMaster-Releases/blob/main/test-result-2.png?raw=true)             |                                       |
+|                                       |                                       |
+
 ### Affected Ports
 
 This repository contains all of the ports that have been affected as a result of these changes. The symbolic linking logic has has been replaced with PM's `bind_directory`, which require testing. This is a complete listing of the affected ports needing testing. To download the whole collection, [**click this link**](https://github.com/t0b10-r3tr0/PortMaster-Releases/archive/refs/heads/main.zip). To downoad an individual port, navigate to the appropriate directory, then the corresponding `.zip` file, and click the button titled *Download raw file*.

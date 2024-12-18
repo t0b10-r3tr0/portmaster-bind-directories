@@ -5,3 +5,4 @@ fixes
 bind-mounts-conf
 copy-to-releases.py
 *.Zone.Identifier
+large-files
