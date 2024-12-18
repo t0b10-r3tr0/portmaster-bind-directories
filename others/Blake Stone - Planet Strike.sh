@@ -13,7 +13,6 @@ else
 fi
 
 source $controlfolder/control.txt
-source $controlfolder/device_info.txt
 
 [ -f "${controlfolder}/mod_${CFW_NAME}.txt" ] && source "${controlfolder}/mod_${CFW_NAME}.txt"
 
@@ -36,8 +35,8 @@ cd $GAMEDIR
 
 > "$GAMEDIR/log.txt" && exec > >(tee "$GAMEDIR/log.txt") 2>&1
 
+# remove the saved data from old location, if exists
 $ESUDO rm -rf ~/.local/share/bibendovsky
-# ln -sfv $GAMEDIR/conf/bibendovsky ~/.local/share/
 
 $ESUDO chmod 666 /dev/tty0
 $ESUDO chmod 666 /dev/tty1

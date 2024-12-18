@@ -45,96 +45,69 @@ Here are some really great submissions we were getting from various supports:
 
 This repository contains all of the ports that have been affected as a result of these changes. The symbolic linking logic has has been replaced with PM's `bind_directory`, which require testing. This is a complete listing of the affected ports needing testing. To download the whole collection, [**click this link**](https://github.com/t0b10-r3tr0/PortMaster-Releases/archive/refs/heads/main.zip). To downoad an individual port, navigate to the appropriate directory, then the corresponding `.zip` file, and click the button titled *Download raw file*.
 
-#### Ready to Run:
+#### Ready to Run
+```
++-----------------------------------------+----------+------------+----------------------------+
+| Port Name                               |  Knulli  |  Other CFW |          Notes             |
++-----------------------------------------+----------+------------+----------------------------+
+| Blake Stone - Aliens of Gold            |          |            |                            |
+| Blake Stone - Planet Strike             |          |  Verified  |                            |
+| Tails Adventure Remake                  |          |            |                            |
+| Trogdor Reburninated                    |          |            |                            |
++-----------------------------------------+----------+------------+----------------------------+
+```
 
-* Abes Adventure
-* Abuse
-* Armagetron Advanced
-* Asylum
-* Blobwars
-* Block Attack
-* Blockout 2
-* Bos Wars
-* C-Dogs
-* Cave Story-evo
-* Descent 2
-* Descent
-* Don Ceferino Hazaña
-* Flare Engine
-* FreeSiege
-* Freedroid
-* Gigalomania
-* Grafx2
-* Heroes
-* Hex-A-Hop
-* Hocoslamfy
-* Holotz Castle
-* Hydra Castle Labyrinth
-* LieroLibre
-* Marathon 2
-* Marathon Infinity
-* Marathon
-* Meritous
-* OpenTyrian
-* Openomf
-* Penguin Command
-* Rise of the Triad - The Hunt Begins
-* Rockdodger
-* Rocks n Diamonds
-* Shippy
-* Super Transball 2
-* VVVVVV
-* Wolfenstein 3D
-
-#### Game Files Required
-
-* Air
-* Alien vs Predator
-* Angband
-* Anodyne
-* Axiom Verge
-* Bleed
-* Bleed2
-* Blood
-* Blossom Tales II
-* Celeste
-* Chasm
-* Clannad Tomoyo After
-* Clannad
-* Daikatana
-* Descent 3
-* Duke3D - Alien World Order
-* Exhumed
-* Fheroes2
-* Freesynd
-* Hexen 2 - Portal of Praevus
-* Hexen 2
-* Hurrican
-* If On A Winter's Night, Four Travelers
-* Kanon
-* Little Busters!
-* Mystik Belle
-* NAM
-* Need For Speed II SE
-* PanzerPaladin
-* Planetarian
-* Quake 3
-* Redneck Rampage Rides Again
-* Redneck Rampage
-* Return to Castle Wolfenstein
-* RigelEngine
-* Rise of the Triad - Dark War
-* Shipwreck
-* Shovel Knight
-* Sonic 3 AIR
-* Star Wars Jedi Knight - Jedi Academy
-* Star Wars Jedi Knight II - Jedi Outcast
-* SteelAssault
-* Timespinner
-* Tomb Raider 1
-* TowerFall Ascension
-* World War II GI
-* World of Goo
+#### Game Files Required:
+```
++-----------------------------------------+----------+------------+----------------------------+
+| Port Name                               |  Knulli  |  Other CFW |          Notes             |
++-----------------------------------------+----------+------------+----------------------------+
+| Air                                     |          |            |                            |
+| Alien vs Predator                       |          |  Verified  |                            |
+| Angband                                 |          |            |                            |
+| Anodyne                                 |          |            |                            |
+| Bleed                                   |          |            |                            |
+| Bleed2                                  | Verified |            |                            |
+| Blood                                   |          |  Verified  |                            |
+| Blossom Tales II                        | Verified |            |                            |
+| Celeste                                 | Verified |            |                            |
+| Clannad Tomoyo After                    |          |            |                            |
+| Clannad                                 |          |            |                            |
+| Daikatana                               |          |            |                            |
+| Descent 3                               |          |            |                            |
+| Duke3D - Alien World Order              |          |            |                            |
+| Exhumed                                 |          |            |                            |
+| Fheroes2                                |          |            |                            |
+| Freesynd                                |          |            |                            |
+| Hexen 2 - Portal of Praevus             |          |            |                            |
+| Hexen 2                                 |          |            |                            |
+| Hurrican                                |          |            |                            |
+| If On A Winter's Night, Four Travelers  |          |            |                            |
+| Kanon                                   |  Crash   |            | L                          |
+| Little Busters!                         |          |            |                            |
+| Mystik Belle                            |          |            |                            |
+| NAM                                     |          |            |                            |
+| Need For Speed II SE                    |          |            |                            |
+| PanzerPaladin                           | Verified |            |                            |
+| Planetarian                             |          |            |                            |
+| Quake 3                                 |          |            |                            |
+| Redneck Rampage Rides Again             |          |            |                            |
+| Redneck Rampage                         |          |            |                            |
+| Return to Castle Wolfenstein            |          |            |                            |
+| RigelEngine                             |          |            |                            |
+| Rise of the Triad - Dark War            |          |            |                            |
+| Shipwreck                               |          |            |                            |
+| Sonic 3 AIR                             |          |            |                            |
+| Star Wars Jedi Knight - Jedi Academy    |          |            |                            |
+| Star Wars Jedi Knight II - Jedi Outcast |          |            |                            |
+| SteelAssault                            | Verified |            |                            |
+| Timespinner                             | Verified |            |                            |
+| Tomb Raider 1                           |          |            |                            |
+| TowerFall Ascension                     |          |            |                            |
+| World War II GI                         |          |            |                            |
+| World of Goo                            |          |            |                            |
++-----------------------------------------+----------+------------+----------------------------+
+```
 
 ### Contributing
 

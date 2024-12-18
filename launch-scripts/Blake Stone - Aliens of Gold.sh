@@ -12,14 +12,13 @@ else
   controlfolder="/roms/ports/PortMaster"
 fi
 
-
+source $controlfolder/control.txt
 source $controlfolder/device_info.txt
 
 [ -f "${controlfolder}/mod_${CFW_NAME}.txt" ] && source "${controlfolder}/mod_${CFW_NAME}.txt"
 
 get_controls
 
-# remove the saved data from old location, if exists
 GAMEDIR="/$directory/ports/bstone-aog"
 
 $ESUDO chmod 777 -R $GAMEDIR/*
@@ -38,6 +37,7 @@ cd $GAMEDIR
 > "$GAMEDIR/log.txt" && exec > >(tee "$GAMEDIR/log.txt") 2>&1
 
 $ESUDO rm -rf ~/.local/share/bibendovsky
+# $ESUDO ln -sfv $GAMEDIR/conf/bibendovsky ~/.local/share/
 
 $ESUDO chmod 666 /dev/tty0
 $ESUDO chmod 666 /dev/tty1

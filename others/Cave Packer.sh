@@ -12,18 +12,13 @@ else
 fi
 
 source $controlfolder/control.txt
-source $controlfolder/device_info.txt
-
 [ -f "${controlfolder}/mod_${CFW_NAME}.txt" ] && source "${controlfolder}/mod_${CFW_NAME}.txt"
-
 get_controls
 
 GAMEDIR=/$directory/ports/cavepacker
 CONFDIR="$GAMEDIR/conf/"
 
 > "$GAMEDIR/log.txt" && exec > >(tee "$GAMEDIR/log.txt") 2>&1
-
-mkdir -p "$GAMEDIR/conf"
 
 # For Ports that use gptokeyb's xbox360 mode, interactive input or config-mode
 $ESUDO chmod 666 /dev/uinput
@@ -33,9 +28,6 @@ export DEVICE_ARCH="${DEVICE_ARCH:-aarch64}"
 export LD_LIBRARY_PATH="$GAMEDIR/libs.${DEVICE_ARCH}:$LD_LIBRARY_PATH"
 export SDL_GAMECONTROLLERCONFIG="$sdl_controllerconfig"
 #export TEXTINPUTINTERACTIVE="Y"
-
-# $ESUDO rm -rf ~/.config/warmux
-# ln -sfv /$directory/ports/warmux/conf/.config/warmux ~/
 
 cd $GAMEDIR
 
