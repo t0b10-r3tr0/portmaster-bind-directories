@@ -62,50 +62,50 @@ This repository contains all of the ports that have been affected as a result of
 +-----------------------------------------+----------+------------+----------------------------+
 | Port Name                               |  Knulli  |  Other CFW |          Notes             |
 +-----------------------------------------+----------+------------+----------------------------+
-| Air                                     |          |            |                            |
 | Alien vs Predator                       |          |  Verified  |                            |
 | Angband                                 |          |            |                            |
 | Anodyne                                 |          |            |                            |
 | Bleed                                   |          |            |                            |
 | Bleed2                                  | Verified |            |                            |
-| Blood                                   |          |  Verified  |                            |
 | Blossom Tales II                        | Verified |            |                            |
-| Celeste                                 | Verified |            |                            |
 | Clannad Tomoyo After                    |          |            |                            |
-| Clannad                                 |          |            |                            |
-| Daikatana                               |          |            |                            |
-| Descent 3                               |          |            |                            |
-| Duke3D - Alien World Order              |          |            |                            |
-| Exhumed                                 |          |            |                            |
 | Fheroes2                                |          |            |                            |
 | Freesynd                                |          |            |                            |
-| Hexen 2 - Portal of Praevus             |          |            |                            |
-| Hexen 2                                 |          |            |                            |
-| Hurrican                                |          |            |                            |
-| If On A Winter's Night, Four Travelers  |          |            |                            |
-| Kanon                                   |  Crash   |            | L                          |
-| Little Busters!                         |          |            |                            |
+| Hurrican                                |          |            | * also needs libcrypto.1.1 |
 | Mystik Belle                            |          |            |                            |
-| NAM                                     |          |            |                            |
-| Need For Speed II SE                    |          |            |                            |
 | PanzerPaladin                           | Verified |            |                            |
-| Planetarian                             |          |            |                            |
 | Quake 3                                 |          |            |                            |
-| Redneck Rampage Rides Again             |          |            |                            |
-| Redneck Rampage                         |          |            |                            |
 | Return to Castle Wolfenstein            |          |            |                            |
 | RigelEngine                             |          |            |                            |
 | Rise of the Triad - Dark War            |          |            |                            |
 | Shipwreck                               |          |            |                            |
-| Sonic 3 AIR                             |          |            |                            |
-| Star Wars Jedi Knight - Jedi Academy    |          |            |                            |
-| Star Wars Jedi Knight II - Jedi Outcast |          |            |                            |
+| Sonic 3 AIR                             | Verified |            |                            |
 | SteelAssault                            | Verified |            |                            |
 | Timespinner                             | Verified |            |                            |
 | Tomb Raider 1                           |          |            |                            |
 | TowerFall Ascension                     |          |            |                            |
-| World War II GI                         |          |            |                            |
-| World of Goo                            |          |            |                            |
+| Air                                     |          |          * | Need Cebion's updated      |
+| Clannad                                 |          |          * | libGL/libEGL to be added   |
+| Kanon                                   |  Crash   |          * | L                          |
+| Little Busters!                         |          |          * | to the rlvm runtime        |
+| Planetarian                             |          |          * |                            |
+| Blood                                   | Verified |  Verified  | PR in progress             |
+| Celeste                                 | Verified |  Verified  | PR in progress             |
+| Exhumed                                 | Verified |            | PR in progress             |
+| Hexen 2 - Portal of Praevus             | Verified |  Verified  | PR in progress             |
+| Hexen 2                                 | Verified |  Verified  | PR in progress             |
+| NAM                                     | Verified |  Verified  | PR in progress             |
+| Redneck Rampage Rides Again             | Verified |  Verified  | PR in progress             |
+| Redneck Rampage                         | Verified |  Verified  | PR in progress             |
+| World War II GI                         | Verified |  Verified  | PR in progress             |
+| Daikatana                               | Verified |  Verified  | Fixed in github            |
+| Descent 3                               | Verified |            | Fixed in github            |
+| Duke3D - Alien World Order              |          |            | Fixed in github            |
+| If On A Winter's Night, Four Travelers  | Verified |  Verified  | Fixed in github            |
+| Star Wars Jedi Knight - Jedi Academy    | Verified |  Verified  | Fixed in github            |
+| Star Wars Jedi Knight II - Jedi Outcast | Verified |  Verified  | Fixed in github            |
+| Need For Speed II SE                    | Verified |  Verified  | Fixed in github            |
+| World of Goo                            | Verified |            | Fixed in github            |
 +-----------------------------------------+----------+------------+----------------------------+
 ```
 
