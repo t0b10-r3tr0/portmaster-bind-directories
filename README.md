@@ -50,10 +50,10 @@ This repository contains all of the ports that have been affected as a result of
 +------------------------------------+----------+------------+-------------------------+
 | Port Name                          |  Knulli  |  Other CFW |          Notes          |
 +------------------------------------+----------+------------+-------------------------+
-| Blake Stone - Aliens of Gold       |          |            | Testing in progress     |
-| Blake Stone - Planet Strike        |          |  Verified  | Testing in progress     |
-| Tails Adventure Remake             |          |            | Testing in progress     |
-| Trogdor Reburninated               |          |            | Testing in progress     |
+| Blake Stone - Aliens of Gold       |          |            |     No fix required     |
+| Blake Stone - Planet Strike        |          |  Verified  |     No fix required     |
+| Tails Adventure Remake             |          |            |     No fix required     |
+| Trogdor Reburninated               |          |            |     No fix required     |
 +------------------------------------+----------+------------+-------------------------+
 ```
 
@@ -83,13 +83,13 @@ This repository contains all of the ports that have been affected as a result of
 | Little Busters!                    | (Crash)  |          * | * runtime (and .sh      |
 | Planetarian                        | (Crash)  |          * | * modified)             |
 | Rise of the Triad - Dark War       |          |            | Fixes required          |
-| Sonic 3 AIR                        |          |            | Fixes required          |
-| Tomb Raider 1                      |          |            | Fixes required          |
-| Hurrican     * also needs libwebp  |          |            | Fixes required          |
-| Return to Castle Wolfenstein       | Verified |  Verified  | PR in progress          |
-| Quake 3                            | Verified |  Verified  | PR in progress          |
-| Exhumed                            | Verified |  Verified  | PR in progress          |
+| Hurrican     * also needs libwebp  | Verified |  Verified  | PR in progress          |
 | Timespinner                        | Verified |  Verified  | PR in progress          |
+| Sonic 3 AIR                        | Verified |  Verified  | Fixed in github         |
+| Tomb Raider 1                      | Verified |  Verified  | Fixed in github         |
+| Return to Castle Wolfenstein       | Verified |  Verified  | Fixed in github         |
+| Quake 3                            | Verified |  Verified  | Fixed in github         |
+| Exhumed                            | Verified |  Verified  | Fixed in github         |
 | Blood                              | Verified |  Verified  | Fixed in github         |
 | Celeste                            | Verified |  Verified  | Fixed in github         |
 | Hexen 2 - Portal of Praevus        | Verified |  Verified  | Fixed in github         |
