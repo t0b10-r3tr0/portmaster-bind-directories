@@ -45,18 +45,6 @@ Here are some really great submissions we were getting from various supports:
 
 This repository contains all of the ports that have been affected as a result of these changes. The symbolic linking logic has has been replaced with PM's `bind_directory`, which require testing. This is a complete listing of the affected ports needing testing. To download the whole collection, [**click this link**](https://github.com/t0b10-r3tr0/PortMaster-Releases/archive/refs/heads/main.zip). To downoad an individual port, navigate to the appropriate directory, then the corresponding `.zip` file, and click the button titled *Download raw file*.
 
-#### Ready to Run
-```
-+------------------------------------+----------+------------+-------------------------+
-| Port Name                          |  Knulli  |  Other CFW |          Notes          |
-+------------------------------------+----------+------------+-------------------------+
-| Blake Stone - Aliens of Gold       |          |            |     No fix required     |
-| Blake Stone - Planet Strike        |          |  Verified  |     No fix required     |
-| Tails Adventure Remake             |          |            |     No fix required     |
-| Trogdor Reburninated               |          |            |     No fix required     |
-+------------------------------------+----------+------------+-------------------------+
-```
-
 #### Game Files Required:
 ```
 +------------------------------------+----------+------------+-------------------------+
@@ -83,29 +71,6 @@ This repository contains all of the ports that have been affected as a result of
 | Little Busters!                    | (Crash)  |          * | * runtime (and .sh      |
 | Planetarian                        | (Crash)  |          * | * modified)             |
 | Rise of the Triad - Dark War       |          |            | Fixes required          |
-| Hurrican     * also needs libwebp  | Verified |  Verified  | PR in progress          |
-| Timespinner                        | Verified |  Verified  | PR in progress          |
-| Sonic 3 AIR                        | Verified |  Verified  | Fixed in github         |
-| Tomb Raider 1                      | Verified |  Verified  | Fixed in github         |
-| Return to Castle Wolfenstein       | Verified |  Verified  | Fixed in github         |
-| Quake 3                            | Verified |  Verified  | Fixed in github         |
-| Exhumed                            | Verified |  Verified  | Fixed in github         |
-| Blood                              | Verified |  Verified  | Fixed in github         |
-| Celeste                            | Verified |  Verified  | Fixed in github         |
-| Hexen 2 - Portal of Praevus        | Verified |  Verified  | Fixed in github         |
-| Hexen 2                            | Verified |  Verified  | Fixed in github         |
-| NAM                                | Verified |  Verified  | Fixed in github         |
-| Redneck Rampage Rides Again        | Verified |  Verified  | Fixed in github         |
-| Redneck Rampage                    | Verified |  Verified  | Fixed in github         |
-| World War II GI                    | Verified |  Verified  | Fixed in github         |
-| Daikatana                          | Verified |  Verified  | Fixed in github         |
-| Descent 3                          | Verified |            | Fixed in github         |
-| Duke3D - Alien World Order         |          |            | Fixed in github         |
-| If On A Winter's Night, Four ...   | Verified |  Verified  | Fixed in github         |
-| Star Wars Jedi Knight - Academy    | Verified |  Verified  | Fixed in github         |
-| Star Wars Jedi Knight II - Outcast | Verified |  Verified  | Fixed in github         |
-| Need For Speed II SE               | Verified |  Verified  | Fixed in github         |
-| World of Goo                       | Verified |            | Fixed in github         |
 +------------------------------------+----------+------------+-------------------------+
 ```
 
