@@ -45,67 +45,36 @@ Here are some really great submissions we were getting from various supports:
 
 This repository contains all of the ports that have been affected as a result of these changes. The symbolic linking logic has has been replaced with PM's `bind_directory`, which require testing. This is a complete listing of the affected ports needing testing. To download the whole collection, [**click this link**](https://github.com/t0b10-r3tr0/PortMaster-Releases/archive/refs/heads/main.zip). To downoad an individual port, navigate to the appropriate directory, then the corresponding `.zip` file, and click the button titled *Download raw file*.
 
-#### Ready to Run
 ```
 +-----------------------------------------+----------+------------+----------------------------+
 | Port Name                               |  Knulli  |  Other CFW |          Notes             |
 +-----------------------------------------+----------+------------+----------------------------+
-| Blake Stone - Aliens of Gold            |          |            |                            |
-| Blake Stone - Planet Strike             |          |  Verified  |                            |
-| Tails Adventure Remake                  |          |            |                            |
-| Trogdor Reburninated                    |          |            |                            |
-+-----------------------------------------+----------+------------+----------------------------+
-```
-
-#### Game Files Required:
-```
-+-----------------------------------------+----------+------------+----------------------------+
-| Port Name                               |  Knulli  |  Other CFW |          Notes             |
-+-----------------------------------------+----------+------------+----------------------------+
+| Abes Adventure                          |          |            |                            |
 | Alien vs Predator                       |          |  Verified  |                            |
 | Angband                                 |          |            |                            |
 | Anodyne                                 |          |            |                            |
 | Bleed                                   |          |            |                            |
 | Bleed2                                  | Verified |            |                            |
+| Blockout                                |          |            |                            |
 | Blossom Tales II                        | Verified |            |                            |
 | Clannad Tomoyo After                    |          |            |                            |
 | Fheroes2                                |          |            |                            |
+| Flare Engine                            |          |            |                            |
+| Freedroid                               |          |            |                            |
 | Freesynd                                |          |            |                            |
-| Hurrican                                |          |            | * also needs libcrypto.1.1 |
-| Mystik Belle                            |          |            |                            |
+| Hocoslamfy                              |          |            |                            |
+| Hydra Castle Labyrinth                  |          |            |                            |
+| Openomf                                 |          |            |                            |
 | PanzerPaladin                           | Verified |            |                            |
-| Quake 3                                 |          |            |                            |
-| Return to Castle Wolfenstein            |          |            |                            |
 | RigelEngine                             |          |            |                            |
-| Rise of the Triad - Dark War            |          |            |                            |
 | Shipwreck                               |          |            |                            |
-| Sonic 3 AIR                             | Verified |            |                            |
 | SteelAssault                            | Verified |            |                            |
-| Timespinner                             | Verified |            |                            |
-| Tomb Raider 1                           |          |            |                            |
 | TowerFall Ascension                     |          |            |                            |
 | Air                                     |          |          * | Need Cebion's updated      |
 | Clannad                                 |          |          * | libGL/libEGL to be added   |
 | Kanon                                   |  Crash   |          * | L                          |
 | Little Busters!                         |          |          * | to the rlvm runtime        |
 | Planetarian                             |          |          * |                            |
-| Blood                                   | Verified |  Verified  | PR in progress             |
-| Celeste                                 | Verified |  Verified  | PR in progress             |
-| Exhumed                                 | Verified |            | PR in progress             |
-| Hexen 2 - Portal of Praevus             | Verified |  Verified  | PR in progress             |
-| Hexen 2                                 | Verified |  Verified  | PR in progress             |
-| NAM                                     | Verified |  Verified  | PR in progress             |
-| Redneck Rampage Rides Again             | Verified |  Verified  | PR in progress             |
-| Redneck Rampage                         | Verified |  Verified  | PR in progress             |
-| World War II GI                         | Verified |  Verified  | PR in progress             |
-| Daikatana                               | Verified |  Verified  | Fixed in github            |
-| Descent 3                               | Verified |            | Fixed in github            |
-| Duke3D - Alien World Order              |          |            | Fixed in github            |
-| If On A Winter's Night, Four Travelers  | Verified |  Verified  | Fixed in github            |
-| Star Wars Jedi Knight - Jedi Academy    | Verified |  Verified  | Fixed in github            |
-| Star Wars Jedi Knight II - Jedi Outcast | Verified |  Verified  | Fixed in github            |
-| Need For Speed II SE                    | Verified |  Verified  | Fixed in github            |
-| World of Goo                            | Verified |            | Fixed in github            |
 +-----------------------------------------+----------+------------+----------------------------+
 ```
 
