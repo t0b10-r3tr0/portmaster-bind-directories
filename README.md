@@ -45,33 +45,46 @@ Here are some really great submissions we were getting from various supports:
 
 This repository contains all of the ports that have been affected as a result of these changes. The symbolic linking logic has has been replaced with PM's `bind_directory`, which require testing. This is a complete listing of the affected ports needing testing. To download the whole collection, [**click this link**](https://github.com/t0b10-r3tr0/PortMaster-Releases/archive/refs/heads/main.zip). To downoad an individual port, navigate to the appropriate directory, then the corresponding `.zip` file, and click the button titled *Download raw file*.
 
+#### Ready to Run:
+```
++-----------------------------------------+----------+------------+----------------------------+
+| Port Name                               |  Knulli  |  Other CFW |          Notes             |
++-----------------------------------------+----------+------------+----------------------------+
+| Abes Adventure                          |          |            |                            |
+| Blockout                                |          |            |                            |
+| Flare Engine                            |          |            |                            |
+| Freedroid                               |          |            |                            |
+| Hocoslamfy                              |          |            |                            |
+| Hydra Castle Labyrinth                  |          |            |                            |
+| Openomf                                 |          |            |                            |
++-----------------------------------------+----------+------------+----------------------------+
+```
+
 #### Game Files Required:
 ```
-+------------------------------------+----------+------------+-------------------------+
-| Port Name                          |  Knulli  |  Other CFW |          Notes          |
-+------------------------------------+----------+------------+-------------------------+
-| Alien vs Predator                  |          |  Verified  |    ** HELP NEEDED **    |
-| Angband                            |          |            |    ** HELP NEEDED **    |
-| Anodyne                            |          |            |    ** HELP NEEDED **    |
-| Bleed                              |          |            |    ** HELP NEEDED **    |
-| Bleed2                             | Verified |            |    ** HELP NEEDED **    |
-| Blossom Tales II                   | Verified |            |    ** HELP NEEDED **    |
-| Fheroes2                           |          |            |    ** HELP NEEDED **    |
-| Freesynd                           |          |            |    ** HELP NEEDED **    |
-| Mystik Belle                       |          |            |    ** HELP NEEDED **    |
-| PanzerPaladin                      | Verified |            |    ** HELP NEEDED **    |
-| RigelEngine                        |          |            |    ** HELP NEEDED **    |
-| Shipwreck                          |          |            |    ** HELP NEEDED **    |
-| SteelAssault                       | Verified |            |    ** HELP NEEDED **    |
-| TowerFall Ascension                |          |            |    ** HELP NEEDED **    |
-| Air                                | (Crash)  |          * | * Need Cebion's updated |
-| Clannad                            | (Crash)  |          * | * libGL/libEGL to be    |
-| Clannad Tomoyo After               | (Crash)  |          * | * added to the rlvm     |
-| Kanon                              |  Crash   |          * | * L                     |
-| Little Busters!                    | (Crash)  |          * | * runtime (and .sh      |
-| Planetarian                        | (Crash)  |          * | * modified)             |
-| Rise of the Triad - Dark War       |          |            | Fixes required          |
-+------------------------------------+----------+------------+-------------------------+
++-----------------------------------------+----------+------------+----------------------------+
+| Port Name                               |  Knulli  |  Other CFW |          Notes             |
++-----------------------------------------+----------+------------+----------------------------+
+| Alien vs Predator                       |          |  Verified  |                            |
+| Angband                                 |          |            |                            |
+| Anodyne                                 |          |            |                            |
+| Bleed                                   |          |            |                            |
+| Bleed2                                  | Verified |            |                            |
+| Blossom Tales II                        | Verified |            |                            |
+| Clannad Tomoyo After                    |          |            |                            |
+| Fheroes2                                |          |            |                            |
+| Freesynd                                |          |            |                            |
+| PanzerPaladin                           | Verified |            |                            |
+| RigelEngine                             |          |            |                            |
+| Shipwreck                               |          |            |                            |
+| SteelAssault                            | Verified |            |                            |
+| TowerFall Ascension                     |          |            |                            |
+| Air                                     |          |          * | Need Cebion's updated      |
+| Clannad                                 |          |          * | libGL/libEGL to be added   |
+| Kanon                                   |  Crash   |          * | L                          |
+| Little Busters!                         |          |          * | to the rlvm runtime        |
+| Planetarian                             |          |          * |                            |
++-----------------------------------------+----------+------------+----------------------------+
 ```
 
 ### Contributing
